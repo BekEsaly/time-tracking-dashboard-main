@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { 
+        color: white;
+        margin-top: 2rem;
+        font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <main class="container">
+      <div class="sidebar">
+        <div class="sidebar--avatar">
+          <img src="./images/image-jeremy.png" alt="avatar">
+          <div>
+            <p>Report for</p>
+            <h1>Jeremy Robsn</h1> 
+          </div>
+          
+        </div>
+        
+        <div class="sidebar--switch">
+          <button aria-label="for switch">Daily</button>
+          <button aria-label="for switch">Weekly</button>
+          <button aria-label="for switch">Monthly</button> 
+        </div>
+      </div>
+      
+      <div class="time-tracking">
+        <div  class="time-tracking--item" id="item-1">
+         <div class="item-content">
+              <p class="item-header">Work<span>...</span></p>
+            <div>
+              <h2><span>32</span>hrs</h2>
+             <p>Last week - <span id="previous">36</span>hrs</p>  
+            </div>
+              
+         </div>
+        </div>
+        
+         <div  class="time-tracking--item" id="item-2">
+           <div class="item-content">
+              <p class="item-header">Play<span>...</span></p>
+              <div>
+                <h2><span>10</span>hrs</h2>
+                <p>Last week - <span id="previous">8</span>hrs</p>
+              </div>
+              
+           </div>
+
+        </div>
+        
+         <div class="time-tracking--item"id="item-3">
+           <div class="item-content">
+            <p class="item-header">Study<span>...</span></p>
+            <div>
+             <h2><span>4</span>hrs</h2>
+             <p>Last week - <span id="previous">7</span>hrs</p>
+            </div>
+
+         </div>
+        </div>
+        
+         <div class="time-tracking--item"id="item-4">
+          <div class="item-content">
+            <p class="item-header">Exercise<span>...</span></p>
+            <div>
+             <h2><span>4</span>hrs</h2>
+            <p>Last week - <span id="previous">5</span>hrs</p>
+            </div>
+            
+        </div>
+        </div>
+        
+        <div class="time-tracking--item"id="item-5">
+         <div class="item-content">
+            <p class="item-header">Social<span>...</span></p>
+           <div>
+            <h2><span>5</span>hrs</h2>
+            <p>Last week - <span id="previous">10</span>hrs</p>
+           </div>
+            
+        </div>
+        </div>
+        
+        <div class="time-tracking--item" id="item-6">
+           <div class="item-content">
+            <p class="item-header">Self Care<span>...</span></p>
+            <div>
+              <h2><span>2</span>hrs</h2>
+            <p>Last week - <span id="previous">2</span>hrs</p>  
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </main>
+<!-- 
+  Work
+  5hrs daily --
+  Previous - 7hrs <!-- daily -->
+   <!-- weekly --
+  Previous -  <!-- weekly --
+  103hrs <!-- monthly --
+  Previous - 128hrs <!-- monthly --
+
+  
+  1hr <!-- daily --
+  Previous - 2hrs <!-- daily -->
+   <!-- weekly --
+  Previous -  <!-- weekly --
+  23hrs <!-- monthly --
+  Previous - 29hrs <!-- monthly --
+
+  
+  0hrs <!-- daily --
+  Previous - 1hr <!-- daily -->
+   <!-- weekly --
+  Previous -  <!-- weekly --
+  13hrs <!-- monthly --
+  Previous - 19hrs <!-- monthly --
+
+  
+  1hr <!-- daily --
+  Previous - 1hr <!-- daily --
+  4hrs <!-- weekly --
+  Previous -  <!-- weekly --
+  11hrs <!-- monthly --
+  Previous - 18hrs <!-- monthly --
+
+  
+  1hr <!-- daily --
+  Previous - 3hrs <!-- daily -->
+   <!-- weekly --
+  Previous -  <!-- weekly --
+  21hrs <!-- monthly --
+  Previous - 23hrs <!-- monthly --
+
+  
+  0hrs <!-- daily --
+  Previous - 1hr <!-- daily -->
+   <!-- weekly --
+  Previous -  <!-- weekly --
+  7hrs <!-- monthly --
+  Previous - 11hrs <!-- monthly -->
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Beka Esaly</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
