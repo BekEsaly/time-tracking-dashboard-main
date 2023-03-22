@@ -108,7 +108,9 @@ body{
 .time-tracking--item{
   height: auto;
 }
-
+.time-tracking--item:hover{
+  opacity:0.6;
+}
 #item-1{
     background: url('./images/icon-work.svg')no-repeat var(--Light-red-work) right top -6%;
 }
