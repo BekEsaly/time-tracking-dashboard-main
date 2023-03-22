@@ -109,7 +109,7 @@ body{
   height: auto;
 }
 .time-tracking--item:hover{
-  opacity:0.6;
+  filter: brightness(1.75);
 }
 #item-1{
     background: url('./images/icon-work.svg')no-repeat var(--Light-red-work) right top -6%;
